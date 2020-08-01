@@ -15,46 +15,37 @@
   </head>
   <body>
     <!-- Navbar section -->
-    <!-- <nav class="navbar navbar-expand-lg">
-      <div class="d-flex">
-        <img class="img-fluid" src="images/logo.png" />
-        <p class="lucid">Lucid</p>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-          aria-controls="collapsibleNavbar"
-          aria-expanded="false"
-        >
-          <i class="fa fa-bars" style="font-size: 26px; color: #871e99;"></i>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">
+          <img class = "img-fluid"src="images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" id="notfy" href="#"
-                ><img src="images/Group 12.svg" alt=""
-              /></a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active pr-2">
+              <a class="nav-link" href="#"><img src="images/Group 12.svg" alt=""
+                /></a><span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="nav-lady" href="#">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img src="images/Ellipse 2.png" alt="" />
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="nav-icon">
-                <select name="" id="select">
-                  <option></option>
-                </select>
-              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
           </ul>
         </div>
-      </div> -->
-    </nav> 
+      </nav>
+    </div>
       <!-- sidebar section -->
     <div class=" container-fluid full-section pr-0 pl-0">
-        <div class=" sidebar">
+        <div class=" sidebar pt-5">
           <div class="profile ">
             <img class="profile-pix img-fluid" src="images/Ellipse 1.png">
             <p class="profile-name pt-3 ">ARETHA JONES</p>
@@ -87,7 +78,7 @@
               </li>
             </ul>
           </div>
-          <br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br>
           <p class="powered "><span class="lucid-logo"><img class="img-fluid" src="images/lucid.svg"></span>Powered by lucid</p>
         </div>
       <!-- mainbar section -->

@@ -3,12 +3,14 @@ html,body{
     font-family: 'Open Sans', sans-serif;
     font-size: min(max(12px, 4vw), 16px);
     line-height: min(max(28px, 4vw), 36px);
+    max-width: auto;
 }
 /* navbar styles */
-.navbar{
+/* .navbar{
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.15); 
-    /* height: 108px; */
+    height: 108px;
+    max-width: 100%;
 }
 
 .img-fluid{
@@ -50,7 +52,7 @@ html,body{
     border: #ffffff;
     color: #871E99;
 }
-
+ */
 
 /****
         NARBAR STYLES STOP
@@ -66,12 +68,6 @@ html,body{
     width: 306px;
     height: 100%;
     color: #FFFFFF;
-    /* position: fixed; */
-    /* z-index: 1; */
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
-     top: 0; 
-    /* left: 0; */
 }
 .profile-name{
     font-style: normal;
@@ -110,9 +106,9 @@ html,body{
     line-height: 26px;
     text-align: center;
     align-items: center;
-    /* padding: 5px; */
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 0px;
 
 }
@@ -143,8 +139,6 @@ html,body{
 }
 .set-image{
     position: absolute;
-    /* left: 10px;
-    top: 25px; */
 }
 .sorting{
     display: flex;
@@ -168,8 +162,6 @@ html,body{
 }
 .sort-image{
     padding-right: 4px;
-    /* background: #867E7E; */
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .card{
@@ -179,8 +171,7 @@ html,body{
     width: 280px;
     height: auto; 
     margin: 10px;
-    /* flex-wrap: nowrap; */
-    /* flex: 1; */
+    
 }
 .card-profile{
     display: flex;
@@ -222,12 +213,4 @@ html,body{
     line-height: 26px;
     color: #585050;
 }
-/* .card{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.25);
-    border-radius: 8px;
-    width: 291px;
-    height: 157px;
-    flex-direction: row;
-} */
+
